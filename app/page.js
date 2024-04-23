@@ -1,7 +1,9 @@
+import Navbar from "@/components/Navbar";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Home
+    <main className="flex flex-col justify-between p-6 lg:px-28">
+      <Navbar />
     </main>
   );
 }
