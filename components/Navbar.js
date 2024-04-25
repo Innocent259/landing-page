@@ -51,10 +51,7 @@ const Navbar = () => {
                 <button className="font-bold">Install Wizardshot</button>
               </span>
               <h2
-                className="text-base leading-[25.6px]"
-                style={{
-                  fontFamily: "Alphabetized Cassette Tapes Thin, sans-serif",
-                }}
+                className="text-base leading-[25.6px] italic"
               >
                 100% free, forever 🤑
               </h2>
