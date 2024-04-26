@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 
 const Features = () => {
   return (
@@ -7,13 +7,16 @@ const Features = () => {
         <div className="h-[234px] flex flex-col justify-between backdrop-blur-2xl">
           <div className="flex flex-col gap-4">
             <div className="h-7 mt-10 bg-[#F3F3F3]" />
-            <div className="relative h-14">
+            <div className="relative flex items-center h-14">
               <Image
                 src="/Rectangle-295.png"
                 alt="Rectangle 295"
                 layout="fill"
                 objectFit="cover"
               />
+              <div className="absolute top-1/4 right-1/4">
+                <Image src="/Icon.png" alt="Cursor" height={24} width={24} />
+              </div>
             </div>
             <div className="h-7 bg-[#F3F3F3]" />
           </div>
@@ -34,7 +37,7 @@ const Features = () => {
         <div></div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Features
+export default Features;
